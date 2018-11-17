@@ -1,0 +1,25 @@
+{
+  "name": "key-generator",
+  "version": "0.0.1",
+  "description": "Fontlet License Key Generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fontlet/key-generator.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fontlet/key-generator/issues"
+  },
+  "homepage": "https://github.com/fontlet/key-generator#readme",
+  "dependencies": {
+    "jsonwebtoken": "^8.4.0"
+  },
+  "devDependencies": {
+    "dotenv": "^6.1.0"
+  }
+}
