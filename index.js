@@ -3,9 +3,9 @@ require("dotenv").config();
 
 /**
  *
- * @param {Object} payload Payload object requred to bind with token
- * @param {Object} options Options, such as `algorithm`, `expiresIn` etc
- * @param {string} secretKey Secret Or PublicKey
+ * @param {Object} payload Payload object requred to bind with the token.
+ * @param {Object} options Options, such as `algorithm`, `expiresIn` etc.
+ * @param {string} secretKey secretOrPublicKey
  */
 const generate = (
   payload = {},
